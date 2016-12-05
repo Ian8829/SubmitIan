@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    font-family: 'Nunito', sans-serif;
 }
 
 h1 {
@@ -14,15 +15,15 @@ h1 {
 }
 
 .menu1 {
-    border: solid black 2px;
-    background-color: #90a4a9;
+    border: solid black 3px;
+    background-color: #a9a9a9;
     position: relative;
     padding-top: 45px;
     padding-left: 10px;
     margin: 20px;
 }
 
-.menu1 h2 {
+.menu1 h3 {
     border: solid black 2px;
     border-top: 0px;
     border-right: 0px;
@@ -30,13 +31,13 @@ h1 {
     position: absolute;
     top:0px;
     right:0px;
-    padding: 3px 10px;
+    padding: 3px 40px;
 }
 
 
 .menu2 {
-    border: solid black 2px;
-    background-color: #90a4a9;
+    border: solid black 3px;
+    background-color: #a9a9a9;
     position: relative;
     padding-top: 45px;
     padding-left: 10px;
@@ -44,7 +45,7 @@ h1 {
 
 }
 
-.menu2 h2 {
+.menu2 h3 {
     border: solid black 2px;
     border-top: 0px;
     border-right: 0px;
@@ -53,19 +54,19 @@ h1 {
     position: absolute;
     top:0px;
     right:0px;
-    padding: 3px 10px;
+    padding: 3px 53px;
 }
 
 .menu3 {
-    border: solid black 2px;
-    background-color: #90a4a9;
+    border: solid black 3px;
+    background-color: #a9a9a9;
     position: relative;
     padding-top: 45px;
     padding-left: 10px;
     margin: 20px;
 }
 
-.menu3 h2 {
+.menu3 h3 {
     border: solid black 2px;
     border-top: 0px;
     border-right: 0px;
@@ -73,7 +74,7 @@ h1 {
     position: absolute;
     top:0px;
     right:0px;
-    padding: 3px 10px;
+    padding: 3px 50px;
 }
 
 @media (min-width: 992px) {

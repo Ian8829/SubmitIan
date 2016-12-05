@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px;
+}
+
+.row {
+    width: 100%
+}
+
+.menu1 {
+    border: solid black 2px;
+    background-color: #90a4a9;
+    position: relative;
+    padding-top: 45px;
+    padding-left: 10px;
+    margin: 20px;
+}
+
+.menu1 h2 {
+    border: solid black 2px;
+    border-top: 0px;
+    border-right: 0px;
+    background-color: #ce8483;
+    position: absolute;
+    top:0px;
+    right:0px;
+    padding: 3px 10px;
+}
+
+
+.menu2 {
+    border: solid black 2px;
+    background-color: #90a4a9;
+    position: relative;
+    padding-top: 45px;
+    padding-left: 10px;
+    margin: 20px;
+
+}
+
+.menu2 h2 {
+    border: solid black 2px;
+    border-top: 0px;
+    border-right: 0px;
+    background-color: #ce1215;
+    color: white;
+    position: absolute;
+    top:0px;
+    right:0px;
+    padding: 3px 10px;
+}
+
+.menu3 {
+    border: solid black 2px;
+    background-color: #90a4a9;
+    position: relative;
+    padding-top: 45px;
+    padding-left: 10px;
+    margin: 20px;
+}
+
+.menu3 h2 {
+    border: solid black 2px;
+    border-top: 0px;
+    border-right: 0px;
+    background-color: #ffdc71;
+    position: absolute;
+    top:0px;
+    right:0px;
+    padding: 3px 10px;
+}
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        float: left;
+        width: 50%;
+    }
+    .col-md-12 {
+        float: left;
+        width: 100%;
+    }
+
+}

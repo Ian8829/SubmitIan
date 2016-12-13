@@ -1,32 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Assignment module 3</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Assignment module 3</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
 <body>
-    <nav>
-        <h1 class="main">Food, LLC</h1>
-    </nav>
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                <div class = "navbar-header">
+                    <div class = "navbar-brand">
+                        <h1 class = "brand">Food, LLC</h1>
+                    </div>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div id="collapsable-nav" class="collapse navbar-collapse">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#">
+                                <br class="hidden-xs"></a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <br class="hidden-xs"></a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <br class="hidden-xs"></a>
+                        </li>
+                    </ul><!-- #nav-list -->
+                </div><!-- .collapse .navbar-collapse -->
+            </div>
+        </nav>
+    </header>
 
-    <h2 class="text-center">Our Menu</h2>
-    <div class ="menu1 col-md-4 col-sm-6 col-xs-12">
-        <h3>Chicken</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem consequuntur doloremque dolorum et ex explicabo maxime nesciunt, nihil optio quod reprehenderit, sequi? Ab aliquid consequuntur culpa cum distinctio doloribus dolorum error, fuga labore minus modi molestias quibusdam reiciendis soluta voluptas. Delectus enim incidunt maxime minima nobis quod repellendus sed velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid architecto atque autem beatae consectetur consequatur deleniti distinctio dolor enim esse ex, expedita facilis hic incidunt ipsum iure maxime, nesciunt odio odit officia perspiciatis quibusdam quidem reiciendis sed suscipit voluptate voluptatum. Delectus deleniti dolorem ipsum molestias perferendis repellendus rerum voluptatum!</p>
-    </div>
-
-    <div class="col-md-4 col-sm-6 col-xs-12">
-        <h3>Beef</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, cum debitis deserunt ducimus, eos est exercitationem illo inventore magni possimus quas quia quidem, sed. Adipisci assumenda at culpa dolor, enim eos exercitationem, explicabo iste laborum natus nihil numquam obcaecati optio possimus quam quas quod recusandae sed sit ut velit, vero. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores delectus ipsum labore maiores neque nobis numquam quod temporibus? Accusantium animi assumenda atque consectetur consequuntur cupiditate deleniti deserunt dicta dolor ducimus enim est eum, expedita hic iste magni maiores minima nam nesciunt omnis optio, sequi vitae voluptate. Cum illum nobis unde.</p>
-    </div>
-
-
-    <div class="col-md-4 col-sm-12 col-xs-12">
-        <h3>Sushi</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium ad aliquid assumenda atque autem commodi consectetur culpa debitis deserunt eius et in ipsam, iure iusto labore mollitia natus odit perspiciatis, quae quidem, reiciendis rem soluta suscipit tempora unde vero voluptas. Enim eos harum laudantium natus perferendis sequi sunt suscipit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut corporis excepturi explicabo ipsam iusto minus nam nobis rerum tenetur velit. Aut beatae dolorum enim reiciendis sunt voluptatibus voluptatum? Accusantium dicta, dolores ducimus eum eveniet explicabo incidunt, magnam, maiores maxime officiis perferendis porro quia quisquam reprehenderit sapiente sunt tempore unde voluptatum?</p>
+    <div id= "mainmn" class= "container-fluid">
+        <h2 class="text-center">Our Menu</h2>
+        <div class ="menu1 col-md-12 col-sm-12 col-xs-12">
+            <h3 class="text-center">Chicken</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem consequuntur doloremque dolorum et ex explicabo maxime nesciunt, nihil optio quod reprehenderit, sequi? Ab aliquid consequuntur culpa cum distinctio doloribus dolorum error, fuga labore minus modi molestias quibusdam reiciendis soluta voluptas. Delectus enim incidunt maxime minima nobis quod repellendus sed velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid architecto atque autem beatae consectetur consequatur deleniti distinctio dolor enim esse ex, expedita facilis hic incidunt ipsum iure maxime, nesciunt odio odit officia perspiciatis quibusdam quidem reiciendis sed suscipit voluptate voluptatum. Delectus deleniti dolorem ipsum molestias perferendis repellendus rerum voluptatum!</p>
+        </div>
+        <div class="menu2 col-md-12 col-sm-12 col-xs-12">
+            <h3 class="text-center">Beef</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem consequuntur doloremque dolorum et ex explicabo maxime nesciunt, nihil optio quod reprehenderit, sequi? Ab aliquid consequuntur culpa cum distinctio doloribus dolorum error, fuga labore minus modi molestias quibusdam reiciendis soluta voluptas. Delectus enim incidunt maxime minima nobis quod repellendus sed velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid architecto atque autem beatae consectetur consequatur deleniti distinctio dolor enim esse ex, expedita facilis hic incidunt ipsum iure maxime, nesciunt odio odit officia perspiciatis quibusdam quidem reiciendis sed suscipit voluptate voluptatum. Delectus deleniti dolorem ipsum molestias perferendis repellendus rerum voluptatum!</p>
+        </div>
+        <div class="menu3 col-md-12 col-sm-12 col-xs-12">
+            <h3 class="text-center">Sushi</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem consequuntur doloremque dolorum et ex explicabo maxime nesciunt, nihil optio quod reprehenderit, sequi? Ab aliquid consequuntur culpa cum distinctio doloribus dolorum error, fuga labore minus modi molestias quibusdam reiciendis soluta voluptas. Delectus enim incidunt maxime minima nobis quod repellendus sed velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid architecto atque autem beatae consectetur consequatur deleniti distinctio dolor enim esse ex, expedita facilis hic incidunt ipsum iure maxime, nesciunt odio odit officia perspiciatis quibusdam quidem reiciendis sed suscipit voluptate voluptatum. Delectus deleniti dolorem ipsum molestias perferendis repellendus rerum voluptatum!</p>
+        </div>
     </div>
 
 </body>

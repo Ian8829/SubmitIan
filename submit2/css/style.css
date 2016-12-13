@@ -1,7 +1,37 @@
-.main {
-    border: 10px;
-    border-bottom: 2px solid black;
-    padding: 20px 15px;
-    background-color: #a9a9a9;
-    margin: 0px;
+* {
+    box-sizing: border-box;
+    color: black;
 }
+
+#header-nav {
+    background-color: #a9a9a9;
+    border-bottom: 2px black solid;
+    padding-bottom: 35px;
+    padding-top: 0;
+}
+
+.brand {
+    color: black;
+}
+
+.navbar-toggle {
+    clear: right;
+    position: absolute;
+    top: 30px;
+}
+
+.menu1, .menu2, .menu3 {
+    border: 0px #a9a9a9 solid;
+    background-color: #a9a9a9;
+    margin-bottom: 10px;
+}
+
+.menu1 {
+    margin-top: 20px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+    clear: right;
